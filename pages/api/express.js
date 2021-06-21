@@ -14,6 +14,6 @@ pool();
 // app.use("/authentication", require("./routes/auth"));
 // app.use("/", require("./routes/scoreCalculator"));
 
-// app.listen(5000, () => {
-//   console.log(`Server is starting on port 5000`);
-// });
+app.listen(5000, () => {
+  console.log(`Server is starting on port 5000`);
+});
